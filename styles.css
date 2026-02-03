@@ -30,13 +30,11 @@ h1{color:rgb(221, 155, 55)}
                 padding-top: 20px;
             }
 .limelight-regular {
-  font-family: "Limelight", "Times New Roman", "Garamond", serif;
+  font-family: "Limelight", serif;
   font-weight: 400;
   font-style: normal;
   color:black;
-}
-a:active {
-color: maroon;
+  font-size: 2em;
 }
 
 .funnel-sans-500 {
@@ -44,7 +42,8 @@ color: maroon;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  color: lightsalmon;
+  color: rgb(58, 18, 2);
+  font-size: 3em;
 }
 a:hover{
     text-decoration:none;
@@ -52,4 +51,13 @@ a:hover{
 }
 a:visited{
     color: white;
+}
+a:active {
+    color: maroon;
+}
+h3 {
+    font-size: 2em;
+}
+p {
+    font-size: 2em;
 }
